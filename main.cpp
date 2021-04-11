@@ -19,7 +19,7 @@ int main()
     int n;
 
     // Konstanten
-    const int gravity = -9.8;
+    // const int gravity = -9.8;
 
     string MeinName = "Markus Schlußmeier";
 
@@ -34,7 +34,7 @@ int main()
     cin.clear();                                                // Damit wird das Errorflag gelöscht, nicht (!) die fehlerhafte Eingabe.
     cin.ignore(1000, '\n');                                           // Anzahl Zeichen, die aus der fehlerhaften Eingabe entfernt werden.
 
-    cout << "z ist gleich: " << z << endl;                              // Da z nicht mit einem Wert versehen war, wird hier "irgendein" Wert angezeigt.
+    // cout << "z ist gleich: " << z << endl;                   // Da z nicht mit einem Wert versehen war, wird hier "irgendein" Wert angezeigt.
 
     // Eine einfache Berechnung
     int num1, num2;
@@ -43,7 +43,34 @@ int main()
     cout << "Enter another number: ";
     cin >> num2;
     int sum = num1 + num2;
-    cout << "The sum is: " << sum;
+    cout << "The sum is: " << sum << endl;
+
+
+    // Arithmetic operators
+    /*
+    +
+    -
+    /
+    *
+    ++
+    --
+    */
+    int xx = 8;
+    float yy = 9;
+    float sumf = xx / yy;
+    cout << "Ergebnis der Division: " << sumf << endl;                 // Wenn einer der beiden Operanden float ist, bekommt man als Ergebnis eine Zahl mit Komma (0,8...)
+
+    x += 2;
+    x -= 2;
+    x *= 2;
+    x /= 2;
+    x++;                                                       // Addition von 1 (Kurzform für x += 1;)
+    x--;                                                       // Subtraktion von 1 (Kurzform für x -= 1;)
+
+    // Remainder of a division (Modulo)
+    int m = 8;
+    int p = 5;
+    cout << "Das Ergebnis der Modulo-Operation lautet " << m % p << endl;
 
 
 
