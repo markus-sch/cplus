@@ -32,7 +32,7 @@ int main()
     cout << "Die Eingabe war: " << n << endl;
     cout << "Eingabe fehlerhaft? " << cin.fail() << endl;       // Hat den Wert 1 bei fehlerhafter Eingabe
     cin.clear();                                                // Damit wird das Errorflag gelöscht, nicht (!) die fehlerhafte Eingabe.
-    cin.ignore(1000, '\n');                                           // Anzahl Zeichen, die aus der fehlerhaften Eingabe entfernt werden.
+    cin.ignore(1000, '\n');                                     // Anzahl Zeichen, die aus der fehlerhaften Eingabe entfernt werden.
 
     // cout << "z ist gleich: " << z << endl;                   // Da z nicht mit einem Wert versehen war, wird hier "irgendein" Wert angezeigt.
 
@@ -58,7 +58,7 @@ int main()
     int xx = 8;
     float yy = 9;
     float sumf = xx / yy;
-    cout << "Ergebnis der Division: " << sumf << endl;                 // Wenn einer der beiden Operanden float ist, bekommt man als Ergebnis eine Zahl mit Komma (0,8...)
+    cout << "Ergebnis der Division: " << sumf << endl;         // Wenn einer der beiden Operanden float ist, bekommt man als Ergebnis eine Zahl mit Komma (0,8...)
 
     x += 2;
     x -= 2;
@@ -71,6 +71,11 @@ int main()
     int m = 8;
     int p = 5;
     cout << "Das Ergebnis der Modulo-Operation lautet " << m % p << endl;
+
+    // Comparison
+    bool vgl = 1 < 2;
+    cout << "Das Ergebnis des Vergleichs ist: " << vgl;
+
 
 
 
