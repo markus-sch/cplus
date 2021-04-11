@@ -1,5 +1,9 @@
 # depslib dependency file v1.0
-1618125110 source:/mnt/SSD_477/Programmierung/C++/Learnc++CodeBlocks/main.cpp
+1618150024 source:/mnt/SSD_477/Programmierung/C++/Learnc++CodeBlocks/main.cpp
+	<iostream>
+	<string>
+
+1618154343 source:/mnt/SSD_477/Programmierung/C++/Learnc++CodeBlocks/arrayys.cpp
 	<iostream>
 	<string>
 

@@ -14,9 +14,10 @@ int main()
     */
     int x = 2;
     int y = 4;
-    int z;
 
     int n;
+
+
 
     // Konstanten
     // const int gravity = -9.8;
@@ -75,6 +76,51 @@ int main()
     // Comparison
     bool vgl = 1 < 2;
     cout << "Das Ergebnis des Vergleichs ist: " << vgl;
+
+    // Logical operators
+    /*
+    !  not
+    && and
+    || or
+    */
+
+    // Trick für vereinfachte Programmierung. Die drei folgenden Befehle haben dieselbe Wirkung
+    /*
+    bool test = !(!false || !true);
+    bool test = (!!false && !!true);
+    bool test = (false && true);
+    */
+
+    // if then else
+    if (x < 7)
+    {
+        cout << "x ist kleiner als 7!" << endl;
+
+    }
+    else if (x == 7)
+    {
+        cout << "x ist gleich 7!" << endl;
+    }
+    else
+    {
+        cout << "x ist nicht kleiner als 7!" << endl;
+    }
+
+
+    // Arrays
+    int arr[5];                                          // Ein leeres Array
+    int arr2[5] = {1, 2, 3, 4, 5}
+    int arr3[] = {1, 2, 3, 4}                            // C++ erkennt die Größe es Arrays selbst
+    arr3[0] = 10;
+
+    cout << arr[0];                                      // Ausgabe des ersten Elements des Arrays
+
+
+
+    {1, 2, 3}
+
+
+
 
 
 
