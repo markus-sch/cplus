@@ -6,11 +6,16 @@ using namespace std;
 int main()
 {
     /* Variablentypen
-    int
-    float
+    int                            // -2b -> 2b
+    unsigned int                   // nur positive Werte, also ca. 4b
+    float                          // 4 bytes of data
+    double                         // 8 bytes of data
     bool true und false immer mit Kleinbuchstaben vorn
     string ""
     char 'x' '0' 's'  Einzelne Zeichen, kann auch ein special character sein.
+    short                          // 2 bytes of data
+    long                           // 4 bytes of data
+    long long                      // 8 bytes of data
     */
     int x = 2;
     int y = 4;

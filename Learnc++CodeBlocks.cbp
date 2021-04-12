@@ -33,6 +33,9 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="LearnC++" />
+		<Unit filename="arrayys.cpp">
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>
